@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+  <body>
+    <script>
+      // Keycloak’s 3p-cookies probe expects this exact postMessage
+      (window.opener || window.parent).postMessage('kc-3p-cookies-step2', window.location.origin);
+    </script>
+  </body>
+</html>

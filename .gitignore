@@ -1,0 +1,26 @@
+# Java / Maven
+target/
+.mvn/
+*.class
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime artifacts
+*.log
+hs_err_pid*
+
+# Env / secrets
+.env
+env/
+keycloak-*/
+
+# Data
+data/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
